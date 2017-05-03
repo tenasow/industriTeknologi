@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel="stylesheet" href="layout.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
@@ -35,7 +36,7 @@
         <br>
         <input type="textbox" name="lyd" placeholder="set lyd">
         <br>
-        <input type="submit" value="submit">
+        <input type="submit" class="btn-danger" value="submit">
       </form>
 
       <div class="footer">
