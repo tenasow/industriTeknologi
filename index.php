@@ -67,11 +67,13 @@
 
         $('#light').html($(this).val());
 
-        if ($(this).val()>50) {
-          document.body.style.background = "red";
+        if ($(this).val()><?php echo $_GET['tempmax']; ?>) {
+          $("#light").css('color', 'red');
         }
-        else {
-          document.body.style.background = "white";
+        else if($(this).val()<<?php echo $_GET['tempmin']; ?>) {
+          $("#light").css('color', 'blue');
+        } else {
+          $("#light").css('color', 'black');
         }
       });
 
