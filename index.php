@@ -8,12 +8,19 @@
     <div class="container">
       <div class="content">
         lys: <span id="lys">
-        <input type="range" width="50%" min="0" max="100" value="0" step="1" onchange="showValue(this.value)" />
-        <span id="range">0</span>
+        <input type="range" style="width: 50%" min="0" max="100" value="0" step="1" onchange="showValue(this.value)" />
+        <span id="light">0</span>
         <script type="text/javascript">
         function showValue(newValue)
         {
-          document.getElementById("range").innerHTML=newValue;
+          document.getElementById("light").innerHTML=newValue;
+
+          if (newValue>50) {
+            document.body.style.background = "red";
+          }
+          else {
+            document.body.style.background = "white";
+          }
         }
         </script>
         <br>
