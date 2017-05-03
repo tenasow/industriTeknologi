@@ -1,7 +1,7 @@
 <html>
   <head>
-    <link rel="stylesheet" href="layout.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="layout.css">
   </head>
   <body>
     <div class="container">
