@@ -28,14 +28,31 @@
 
       <form action="index.php">
 
-        <input type="textbox" name="temp" placeholder="set temp">
+        <div>
+          <br>
+          <p> temperature </p>
+          <input type="textbox" name="tempmin" placeholder="min">
+          <input type="textbox" name="tempmax" placeholder="max">
+        </div>
+        <div>
+          <br>
+          <p> lys </p>
+          <input type="textbox" name="lysmin" placeholder="min">
+          <input type="textbox" name="lysmax" placeholder="max">
+      </div>
+      <div>
         <br>
-        <input type="textbox" name="lys" placeholder="set lys">
+        <p> Co2</p>
+        <input type="textbox" name="co2min" placeholder="min">
+        <input type="textbox" name="co2max" placeholder="max">
+      </div>
+      <div>
         <br>
-        <input type="textbox" name="co2" placeholder="set Co2">
-        <br>
-        <input type="textbox" name="lyd" placeholder="set lyd">
-        <br>
+        <p> lyd </p>
+        <input type="textbox" name="lydmin" placeholder="min">
+        <input type="textbox" name="lydmax" placeholder="max">
+      </div>
+      <br>
         <input type="submit" class="btn-danger" value="submit">
       </form>
 
