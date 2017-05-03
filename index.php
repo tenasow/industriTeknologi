@@ -2,12 +2,20 @@
   <head>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="layout.css">
+    <link type="text/javascript" href="app.js">
   </head>
   <body>
     <div class="container">
       <div class="content">
         lys: <span id="lys">
-
+        <input type="range" width="50%" min="0" max="100" value="0" step="1" onchange="showValue(this.value)" />
+        <span id="range">0</span>
+        <script type="text/javascript">
+        function showValue(newValue)
+        {
+          document.getElementById("range").innerHTML=newValue;
+        }
+        </script>
         <br>
 
         <br>
