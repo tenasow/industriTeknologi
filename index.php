@@ -1,5 +1,6 @@
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="layout.css">
     <link type="text/javascript" href="app.js">
@@ -8,20 +9,9 @@
     <div class="container">
       <div class="content">
         lys: <span id="lys">
-        <input type="range" style="width: 50%" min="0" max="100" value="0" step="1" onchange="showValue(this.value)" />
+        <input type="range" id="range" style="width: 50%" min="0" max="100" value="0" step="1" />
         <span id="light">0</span>
         <script type="text/javascript">
-        function showValue(newValue)
-        {
-          document.getElementById("light").innerHTML=newValue;
-
-          if (newValue>50) {
-            document.body.style.background = "red";
-          }
-          else {
-            document.body.style.background = "white";
-          }
-        }
         </script>
         <br>
 
@@ -70,6 +60,22 @@
       <br>
         <input type="submit" class="btn-danger" value="submit">
       </form>
+
+      <script>
+
+      $('#range').bind('input', function() {
+
+        $('#light').html($(this).val());
+
+        if ($(this).val()>50) {
+          document.body.style.background = "red";
+        }
+        else {
+          document.body.style.background = "white";
+        }
+      });
+
+      </script>
 
       <div class="footer">
         Made by Emil, Mathias og Bjarke - Industriteknologi 03-05-2017
