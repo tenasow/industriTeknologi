@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <div class="content">
-        lys: <span id="lys">
+        Set light: <span id="lys">
         <input type="range" id="range" style="width: 50%" min="0" max="100" value="0" step="1" />
         <span id="light">0</span>
         <script type="text/javascript">
@@ -17,15 +17,15 @@
 
         <br>
 
-        temp: <span id="temp">
+        Set temperature: <span id="temp">
 
         <br><br>
 
-        Co2: <span id="co2">
+        Set CO2: <span id="co2">
 
         <br><br>
 
-        lyd: <span id="lyd">
+        Set Noise level: <span id="lyd">
 
       </span></span></span></span></div>
 
@@ -35,25 +35,25 @@
 
         <div>
           <br>
-          <p> temperature </p>
+          <p> Temperature warning levels:</p>
           <input type="textbox" name="tempmin" placeholder="min">
           <input type="textbox" name="tempmax" placeholder="max">
         </div>
         <div>
           <br>
-          <p> lys </p>
+          <p> Light warning levels: </p>
           <input type="textbox" name="lysmin" placeholder="min">
           <input type="textbox" name="lysmax" placeholder="max">
       </div>
       <div>
         <br>
-        <p> Co2</p>
+        <p> CO2 warning levels:</p>
         <input type="textbox" name="co2min" placeholder="min">
         <input type="textbox" name="co2max" placeholder="max">
       </div>
       <div>
         <br>
-        <p> lyd </p>
+        <p> Noise warning levels: </p>
         <input type="textbox" name="lydmin" placeholder="min">
         <input type="textbox" name="lydmax" placeholder="max">
       </div>
