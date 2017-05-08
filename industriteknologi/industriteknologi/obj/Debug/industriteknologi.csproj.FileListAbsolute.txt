@@ -1,0 +1,28 @@
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\bin\Debug\industriteknologi.exe.config
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\bin\Debug\industriteknologi.exe
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\bin\Debug\industriteknologi.pdb
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.csprojResolveAssemblyReference.cache
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\MainWindow.g.cs
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\App.g.cs
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi_MarkupCompile.cache
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi_MarkupCompile.lref
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\MainWindow.baml
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.g.resources
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.Properties.Resources.resources
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.csproj.GenerateResource.Cache
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.exe
+c:\users\blarg\documents\visual studio 2015\Projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.pdb
+D:\projects\industriteknologi\industriteknologi\bin\Debug\industriteknologi.exe.config
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.exe
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.pdb
+D:\projects\industriteknologi\industriteknologi\bin\Debug\industriteknologi.exe
+D:\projects\industriteknologi\industriteknologi\bin\Debug\industriteknologi.pdb
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.csprojResolveAssemblyReference.cache
+D:\projects\industriteknologi\industriteknologi\obj\Debug\MainWindow.g.cs
+D:\projects\industriteknologi\industriteknologi\obj\Debug\App.g.cs
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi_MarkupCompile.cache
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi_MarkupCompile.lref
+D:\projects\industriteknologi\industriteknologi\obj\Debug\MainWindow.baml
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.g.resources
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.Properties.Resources.resources
+D:\projects\industriteknologi\industriteknologi\obj\Debug\industriteknologi.csproj.GenerateResource.Cache
