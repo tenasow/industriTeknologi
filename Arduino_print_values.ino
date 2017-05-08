@@ -25,6 +25,6 @@ Serial.print(cel);
 Serial.print(";");
 Serial.println(sensorValue);
 
-  delay(500);
+  delay(2500);
 }
 
